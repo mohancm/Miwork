@@ -13,6 +13,12 @@ public class Word {
         mMiworkTranslations = miWorkTranslation;
     }
 
+    public Word(String defaultTranslation, String miWorkTranslation, int imageResourceId) {
+        mDefaultTranslation = defaultTranslation;
+        mMiworkTranslations = miWorkTranslation;
+        mImageResourceId = imageResourceId;
+    }
+
 
     public String getmDefaultTranslation() {
         return mDefaultTranslation;
