@@ -6,6 +6,8 @@ public class Word {
 
     private String mMiworkTranslations;
 
+    private int mImageResourceId;
+
     public Word(String defaulTranslations, String miWorkTranslation) {
         mDefaultTranslation = defaulTranslations;
         mMiworkTranslations = miWorkTranslation;
@@ -18,5 +20,9 @@ public class Word {
 
     public String getmMiworkTranslations() {
         return mMiworkTranslations;
+    }
+
+    public int getmImageResourceId () {
+        return mImageResourceId;
     }
 }
